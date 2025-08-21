@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SeedSafe — Offline seed phrase manager & recovery tool. 100% offline, open-source. Decrypt .ssv or SSV1 QR backups locally—no servers, no tracking.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://techjenova.github.io/seedsafe-site/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+   <meta property="og:title" content="SeedSafe — Secure Offline Seed Phrase Manager">
+  <meta property="og:description" content="100% offline, open-source. Decrypt .ssv or SSV1 QR backups locally—no servers, no tracking.">
+  <meta property="og:url" content="https://techjenova.github.io/seedsafe-site/">
+  <meta property="og:image" content="https://techjenova.github.io/seedsafe-site/assets/images/logo.png">
+
+    <!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SeedSafe — Secure Offline Seed Phrase Manager">
+<meta name="twitter:description" content="Offline, open-source, and private by design.">
+<meta name="twitter:image" content="https://techjenova.github.io/seedsafe-site/assets/images/logo.png">
+    <title>SeedSafe - Secure Offline Seed Phrase Manager</title>
+
+    <!-- CSS libs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="assets/images/logo.png" alt="SeedSafe Logo" width="30" height="30" class="me-2" />
+          <strong>SeedSafe</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#security">Security</a></li>
+            <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn nav-cta" href="recovery.html">Recovery Tool</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section container vh-100 d-flex align-items-center">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <p class="mb-2" data-aos="fade-up">A project by <strong>Jenovatech</strong></p>
+          <h1 class="display-3 fw-bold" data-aos="fade-up" data-aos-delay="100">Your Keys, Your Vault.<br /><span class="gradient-text">Offline & Secure.</span></h1>
+          <p class="lead my-4" data-aos="fade-up" data-aos-delay="200">SeedSafe is a 100% offline, open-source application to secure your crypto seed phrases. Total privacy, zero tracking, maximum security.</p>
+          <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="google-play-badge">
+              <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
+            </a>
+            <a href="#download" class="btn btn-primary me-2">Download Free Version</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hero-mockup-wrap" data-aos="fade-left" data-aos-delay="400">
+            <img src="assets/images/mockup.png" alt="SeedSafe App Mockup" class="img-fluid hero-mockup" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container py-5">
+      <div class="row text-center">
+        <div class="col-12">
+          <h2 class="display-5 fw-bold" data-aos="fade-up">Why Choose SeedSafe?</h2>
+          <p class="lead mb-5" data-aos="fade-up" data-aos-delay="100">Everything you need for ironclad security.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wifi-off" viewBox="0 0 16 16">
+                <path d="M10.706 3.294A12.545 12.545 0 0 0 8 3C5.259 3 2.722 4.163.235 5.751L8 14.894l2.706-2.906z" />
+                <path d="M15.385 5.823a12.64 12.64 0 0 0-2.679-2.529L8 14.894l7.385-9.071zM.53 6.087a14.28 14.28 0 0 1 1.95-1.708l-1.03-1.03a.5.5 0 0 1 .708-.708l14 14a.5.5 0 0 1-.708.708l-1.93-1.929a12.64 12.64 0 0 0-1.28-1.025z" />
+              </svg>
+            </div>
+            <h5 class="fw-bold mt-3">100% Offline</h5>
+            <p>Your data never leaves your device. No servers, no clouds, no internet connection required. Pure privacy.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
+                <path
+                  d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.056.255.098.38.115a.5.5 0 0 0 .139.002c.125-.017.26-.059.38-.115.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.953-.324-1.89-.623-2.837-.855C9.538 1.072 8.736 1 8 1s-1.538.072-2.662.59zM8 5a1.5 1.5 0 0 1 1.5 1.5v1.5a.5.5 0 0 1-1 0V7A.5.5 0 0 0 8 7v1.5a.5.5 0 0 1-1 0V6.5A1.5 1.5 0 0 1 8 5"
+                />
+              </svg>
+            </div>
+            <h5 class="fw-bold mt-3">Ironclad Encryption</h5>
+            <p>Using open-source, industry-standard algorithms (AES-256-GCM & PBKDF2) to lock your vault.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-fingerprint" viewBox="0 0 16 16">
+                <path
+                  d="M8.06 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m.5 5.523c.338.252.792.423 1.437.423 1.537 0 2.562-.644 3.33-1.55C14.162 10 14.5 8.995 14.5 8.163 14.5 7.152 14.088 6.5 13.33 6.5H13c-.11 0-.214.032-.303.093l-.046.033c-.347.243-.639.57-.84.966-.202.395-.303.82-.303 1.258v.488c0 .26-.039.514-.118.762-.08.247-.197.48-.344.696-.147.217-.328.412-.533.578-.205.166-.432.304-.678.415-.246.111-.51.196-.79.246a4 4 0 0 0-.219.025v-.956c.094-.012.188-.026.282-.042.22-.037.433-.092.632-.166.396-.147.76-.375 1.05-.69.29-.315.485-.715.53-1.189.043-.473-.004-.986-.166-1.488-.162-.502-.455-.94-.852-1.25a3.1 3.1 0 0 0-.315-.192l-.098-.052-.008-.004A2.5 2.5 0 0 0 8.5 6.5a1.5 1.5 0 0 0-3 0c0 .415.122.804.337 1.139.215.335.5.626.833.87.05.037.092.08.127.128.035.048.06.103.076.162v.266c.004.031.004.062.004.093v.44c0 .248-.053.488-.152.71-.1.222-.244.425-.42.59-.176.165-.38.307-.61.41a4.2 4.2 0 0 0-1.112.507v-.956c.338-.252.792-.423 1.437-.423.473 0 .894.11 1.222.296.328.186.55.45.656.78Z"
+                />
+              </svg>
+            </div>
+            <h5 class="fw-bold mt-3">Biometric Unlock</h5>
+            <p>Access your vault in a split second using your fingerprint or face. Secure, fast, and convenient.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                <path
+                  d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+                />
+              </svg>
+            </div>
+            <h5 class="fw-bold mt-3">Open Source</h5>
+            <p>Trust through transparency. Our code is open for the world to see, audit, and verify. No hidden surprises.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-qr-code" viewBox="0 0 16 16">
+                <path d="M2 2h2v2H2z" />
+                <path d="M6 0v6H0V0zM5 1H1v4h4zM4 12H2v2h2z" />
+                <path d="M6 10v6H0v-6zm-1 1H1v4h4zM16 0h-4v6h4zM15 1h-2v4h2zM12 12h2v2h-2z" />
+                <path d="M16 10v6h-4v-6zm-1 1h-2v4h2zM0 8h2v2H0zM4 8h2v2H4zM8 8h2v2H8zM8 0h2v2H8zM8 4h2v2H8zM12 8h2v2h-2z" />
+              </svg>
+            </div>
+            <h5 class="fw-bold mt-3">Encrypted Export</h5>
+            <p>Backup your entire vault to a single encrypted QR code or a `.ssv` file. Your backup is as secure as your vault.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-unlock" viewBox="0 0 16 16">
+                <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2M3 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1z" />
+              </svg>
+            </div>
+            <h5 class="fw-bold mt-3">No Vendor Lock-in</h5>
+            <p>Your data is yours. Use our open-source web tool to recover your phrases even if you don't have the app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="security" class="container py-5 my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 security-visual" data-aos="fade-right">
+          <img src="assets/images/security_illustration.png" alt="Security Illustration" class="img-fluid" />
+        </div>
+
+        <div class="col-lg-6 security-copy" data-aos="fade-left" data-aos-delay="100">
+          <p class="gradient-text fw-bold">Trust Through Transparency</p>
+          <h2 class="display-5 fw-bold">You Are in Complete Control.</h2>
+          <p class="lead my-4 text-muted">SeedSafe is built on a simple principle: we believe you should have absolute ownership of your data. We never have access to your keys, your password, or your information.</p>
+
+          <ul class="list-unstyled security-points">
+            <li class="d-flex align-items-start mb-3">
+              <div class="icon-wrapper-sm me-3">✓</div>
+              <div>
+                <h6 class="fw-bold">Non-Custodial by Design</h6>
+                <p class="mb-0 text-muted">Your vault is stored only on your device, not on our servers. If you lose your device without a backup, your data is gone forever. That's true security.</p>
+              </div>
+            </li>
+            <li class="d-flex align-items-start mb-3">
+              <div class="icon-wrapper-sm me-3">✓</div>
+              <div>
+                <h6 class="fw-bold">Open Source Standards</h6>
+                <p class="mb-0 text-muted">
+                  We use battle-tested, open-source cryptographic algorithms like AES-256-GCM. No proprietary code, no hidden backdoors. You can even use our web recovery tool to decrypt your data without our app.
+                </p>
+              </div>
+            </li>
+            <li class="d-flex align-items-start">
+              <div class="icon-wrapper-sm me-3">✓</div>
+              <div>
+                <h6 class="fw-bold">Zero Tracking or Analytics</h6>
+                <p class="mb-0 text-muted">The app contains no trackers, no analytics, and no monitoring tools. Your activity is your business, and nobody else's.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="container py-5">
+      <div class="row text-center">
+        <div class="col-12">
+          <h2 class="display-5 fw-bold" data-aos="fade-up">Get The Right Plan For You</h2>
+          <p class="lead mb-5" data-aos="fade-up" data-aos-delay="100">Start with the free version and upgrade when you need advanced features.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-5 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-card">
+            <h3 class="fw-bold">Free</h3>
+            <p class="fs-1 fw-bold my-4">$0<span class="fs-5 text-muted"> / forever</span></p>
+            <p>Perfect for getting started and securing your first seed phrases.</p>
+            <a href="#" class="btn btn-outline-light w-100 mt-4">Download Free Version (.apk)</a>
+            <hr class="my-4" />
+            <ul class="list-unstyled text-start">
+              <li class="mb-2"><span class="me-2">✓</span> Unlimited Seed Phrase Storage</li>
+              <li class="mb-2"><span class="me-2">✓</span> Biometric Unlock</li>
+              <li class="mb-2"><span class="me-2">✓</span> 100% Offline & Secure</li>
+              <li class="text-muted"><span class="me-2">✗</span> Encrypted QR Code Export</li>
+              <li class="text-muted"><span class="me-2">✗</span> Anti-Screenshot (Sensitive Screens)</li>
+              <li class="text-muted"><span class="me-2">✗</span> Encrypted .ssv File Export</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-5 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="pricing-card pro">
+            <div class="pro-badge" id="proPromoBadge">LAUNCH PRICE</div>
+            <div class="price-line my-3">
+              <span class="price-current" id="proPriceNow">$2.99</span>
+              <span class="price-original" id="proPriceWas">$6.99</span>
+            </div>
+            <div class="price-note">One-time purchase • No subscription</div>
+            <small class="local-price text-muted">≈ Rp 50.000 (intro)</small>
+
+            <p class="mt-4">For users who need robust backup, export, and extra privacy.</p>
+            <a href="#" class="btn btn-primary btn-gplay w-100 mt-4"> Get Pro on <i class="bi bi-google-play ps-2"> </i> Google Play</a>
+            <div id="promoCountdown" class="promo-countdown" data-ends="2025-09-07T00:00:00Z">Ends in <span class="cd-days">--</span>d <span class="cd-hours">--</span>h <span class="cd-mins">--</span>m</div>
+            <hr class="my-4" />
+            <ul class="list-unstyled text-start">
+              <li class="mb-2"><span class="me-2">✓</span> Unlimited Seed Phrase Storage</li>
+              <li class="mb-2"><span class="me-2">✓</span> Biometric Unlock</li>
+              <li class="mb-2"><span class="me-2">✓</span> 100% Offline & Secure</li>
+              <li class="mb-2"><strong class="gradient-text">✓ Encrypted QR Code Export</strong></li>
+              <li class="mb-2"><strong class="gradient-text">✓ Anti-Screenshot (Sensitive Screens)</strong></li>
+              <li class="mb-2"><strong class="gradient-text">✓ Encrypted .ssv File Export</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 mt-5" data-aos="fade-up" data-aos-delay="100">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-md-start">
+            <a class="navbar-brand d-flex align-items-center justify-content-center justify-content-md-start" href="#">
+              <img src="assets/images/logo.png" alt="SeedSafe Logo" width="30" height="30" class="me-2" />
+              <strong>SeedSafe</strong>
+            </a>
+          </div>
+          <div class="col-md-4 my-3 my-md-0">
+            <p class="mb-0">A proud project by <a href="#" class="jenovatech-link fw-bold">Jenovatech</a></p>
+            <small class="text-muted">&copy; 2025 Jenovatech. All Rights Reserved.</small>
+          </div>
+          <div class="col-md-4 text-md-end">
+            <a href="https://x.com/jenovatech" class="social-icon" target="_blank" rel="noopener"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://instagram.com/jenovatech1/" class="social-icon" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://tiktok.com/@jenovatech" class="social-icon" target="_blank" rel="noopener"><i class="bi bi-tiktok"></i></a>
+            <a href="https://youtube.com/@jenovatech" class="social-icon" target="_blank" rel="noopener"><i class="bi bi-youtube"></i></a>
+            <a href="mailto:techjenova@gmail.com" class="social-icon" target="_blank" rel="noopener"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS libs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- App JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+

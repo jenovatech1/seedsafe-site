@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://techjenova.github.io/seedsafe-site/sitemap.xml
